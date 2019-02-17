@@ -4,23 +4,83 @@
     Date: 2/15/2019
 
     Filename: style.css
-
 */
 
 
 /**********General Styling **********/
 
+header{
+    /* sets the border to solid and the color for the header */
+    border-bottom: solid  #cccccc;
+    padding:30px;
+}
 
+/**********Heading Styles **********/
 
-
+#titleName{
+    /* Adjusting the placement of the title name in the header */
+    display:inline;
+    position: relative;
+    left:5em;
+    bottom:6px;
+    padding: 38px;
+    
+    /* Setting the color */
+    background-color: #4aaaa5;
+    color: white;
+}
 
 /********** Font Styles **********/
-
+h1{
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+}
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
 /**********Header Styles **********/
 
 
+
 /**********Navigation Styles **********/
+#navbar{
+    /*Removes the bullets in the navbar */
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+    /* Displays navbar to the right */
+    float: right;  
+    
+    /* Sets the specific location of the navbar */
+    transform: translateX(-25em) translateY(-2em);   
+}
+
+.navbarItems{
+    /* Makes navbar horizontal */
+    display: inline;
+    
+    /*Makes a line in between each navbar item */
+    border-right-style: solid;
+    border-right-color: #777777;
+}
+
+.navbarItems a{
+    padding: 10px;
+    
+    /* Sets the navbar color */
+    color: #777777;
+    
+    /* Removes underline */
+    text-decoration: none;
+}
+
+.navbarItems a:hover{
+    /* Change the link color on hover */
+    background-color: #4aaaa5;
+    color:white;
+}
+
 
 /**********Video Styles **********/
 
