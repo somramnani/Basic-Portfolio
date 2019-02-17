@@ -9,9 +9,10 @@
 
 /**********General Styling **********/
 
+
 header{
     /* sets the border to solid and the color for the header */
-    border-bottom: solid  #cccccc;
+    border-bottom: solid #ffffff;
     padding:30px;
 }
 
@@ -88,3 +89,13 @@ body{
 /**********Image Styles **********/
 
 /***********Footer Styling ***********/
+#copyright{
+    font-size: 10px;
+    text-align:center;
+}
+footer{
+    background-color: #666666;
+    padding: 20px;
+
+    border-top: 8px solid #4aaaa5;
+}
