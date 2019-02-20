@@ -9,11 +9,38 @@
 
 /**********General Styling **********/
 
-
+#content{
+    background-color: #ffffff;
+    display: block;
+    width: 960px;
+    height: auto;
+    
+}
 header{
     /* sets the border to solid and the color for the header */
-    border-bottom: solid #ffffff;
+    border-bottom: solid #cccccc;
     padding:30px;
+}
+
+#aboutme{
+    height: 100%;
+    width: 100%;s
+    background-color: grey;
+}
+
+.wrapper{
+    /* Setting the placement of the text  */
+    margin: 0 auto 0 auto;
+    width:83em;
+    padding: 20px;
+    
+    border: solid #dddddd;
+    padding-top: 20px;
+}
+
+p{
+    padding: 10px;
+    line-height: 2em;
 }
 
 /**********Heading Styles **********/
@@ -22,13 +49,21 @@ header{
     /* Adjusting the placement of the title name in the header */
     display:inline;
     position: relative;
-    left:5em;
+    left:7.3em;
     bottom:6px;
     padding: 38px;
     
     /* Setting the color */
     background-color: #4aaaa5;
     color: white;
+}
+
+#aboutMeTitle{
+    color:#4aaaa5;
+    border-bottom: solid #cccccc ;
+    padding-bottom: 40px;
+    font-size: 2em;
+    
 }
 
 /********** Font Styles **********/
@@ -40,7 +75,9 @@ body{
 }
 
 /**********Header Styles **********/
+#aboutMeHeader{
 
+}
 
 
 /**********Navigation Styles **********/
@@ -79,23 +116,43 @@ body{
 .navbarItems a:hover{
     /* Change the link color on hover */
     background-color: #4aaaa5;
-    color:white;
+    color:white;    
 }
-
 
 /**********Video Styles **********/
 
 
 /**********Image Styles **********/
+#pictureOfSom{
+    height: 11em;
+    width: auto;
+    padding-right: 20px;
+   
+   float:left;
+   
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
-/***********Footer Styling ***********/
+
+
+/***********Footer Styles ***********/
 #copyright{
     font-size: 10px;
     text-align:center;
 }
+
 footer{
     background-color: #666666;
     padding: 20px;
-
     border-top: 8px solid #4aaaa5;
+    
+    /* Sets the footer to the bottom and stays there */
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
