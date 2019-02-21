@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["F8KVh"]); }
-
-__d("getWorkChatThreadImage",["Promise","CurrentUser","MercuryIDs","MercuryThreadImage.react","MessengerParticipants.bs","React"],(function(a,b,c,d,e,f){"use strict";__p&&__p();function a(a){return new(b("Promise"))(function(c,d){if(a==null)c(null);else{b("MercuryIDs").getParticipantIDFromUserID(b("CurrentUser").getID());d=a.participants||[];b("MessengerParticipants.bs").getOrderedBigImageMulti(d,function(d){c(b("React").createElement(b("MercuryThreadImage.react"),{thread:a,viewer:b("CurrentUser").getID(),size:28,useBackground:!0}))})}})}e.exports=a}),null);

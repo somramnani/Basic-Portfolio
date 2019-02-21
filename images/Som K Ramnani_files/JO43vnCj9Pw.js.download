@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["SR+ng"]); }
-
-__d("getWorkChatThreadParticipants",["Promise","MessengerParticipants.re","immutable"],(function(a,b,c,d,e,f){"use strict";__p&&__p();function a(a){return new(b("Promise"))(function(c,d){if(a==null)c(b("immutable").Map());else{d=a.participants;b("MessengerParticipants.re").getMulti(d,function(a){c(b("immutable").Map(a))})}})}e.exports=a}),null);
