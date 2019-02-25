@@ -5,6 +5,7 @@
         <meta charset = "utf-8">
         <title> Contact</title>
         <link rel = "stylesheet" href = "css/style.css">
+        <link rel="icon" href="images/som.jpg">
     </head>
 
     <body>
@@ -13,45 +14,40 @@
             <nav>    
                 <ul id="navbar">
                     <li class = "navbarItems" ><a  href = "index.html">About</a></li>
-                    <li class = "navbarItems"><a href = "projects.html">Projects</a></li>
+                    <li class = "navbarItems"><a href = "projects.html">Portfolio</a></li>
                     <li class = "navbarItems"><a href = "contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
+        
+        <div class = "main_section">
+            <div class ="wrapper">
+                <section id = "content">
+                    <h1 id= "contactPageTitle">Contact<h1>
+                        <div class ="container">
+                            <form action ="MAILTO:som.ramnani@gmail.com">
 
-        <div class ="wrapper">
-            <section id = "content">
-                <h1 id= "contactPageTitle">Contact<h1>
-                    <div class ="container">
-                        <form action ="/action_page.php">
+                                <!-- First name input -->
+                                <label for = "fname" class="labels">First name</label>
+                                <input type = "text" id ="name" name="Name" placeholder = "Your name..">
+                                
+                                <!-- Last name input -->
+                                <label for= "lname"  class ="labels" >Last Name</label>
+                                <input type = "text" id = "lname" placeholder = "Your last name...">
 
-                            <!-- First name input -->
-                            <label for = "fname" class="labels">First name</label>
-                            <input type = "text" id ="name" name="Name" placeholder = "Your name..">
-                            
-                            <!-- Last name input -->
-                            <label for= "lname"  class ="labels" >Last Name</label>
-                            <input type = "text" id = "lname" placeholder = "Your last name...">
+                                <!-- Email address input -->
+                                <label for="email"  class="labels">Email Address:</label>
+                                <input id="email" type="email" name="Email" required maxlength="50">
 
-                            <!-- Email address input -->
-                            <label for="email"  class="labels">Email Address:</label>
-                            <input id="email" type="email" name="Email" required maxlength="50">
-                            
+                                <!-- Subject Input -->
+                                <label for = "subject" class ="labels">Subject</label>
+                                <textarea id ="subject" name= "subject" placeholder = "Write something..."></textarea>
 
-
-                            <!-- Subject Input -->
-                            <label for = "subject" class ="labels">Subject</label>
-                            <textarea id ="subject" name= "subject" placeholder = "Write something..."></textarea>
-
-                            <input type = "submit" value = "Submit">
-
-
-                            
-                        </form>
-                        
-                    </div>
-
-            </section>    
+                                <input type = "submit" value = "Submit">   
+                            </form> 
+                        </div>
+                </section>    
+            </div>
         </div>
 
         <footer>

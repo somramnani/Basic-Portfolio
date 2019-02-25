@@ -8,6 +8,20 @@
 
 
 /**********General Styling **********/
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+  
+    
+}
+body {
+    min-height: 100%;
+ 
+
+  }
+
 a{
     text-decoration: none;
 }
@@ -27,12 +41,25 @@ header{
 
 .wrapper{
     /* Setting the placement of the text  */
-    margin: 0 auto 0 auto;
+    margin: 0 auto 0 auto; 
     width:60em;
     padding: 20px;
     border: solid #dddddd;
     padding-top: 20px;
     transform: translateY(20px);
+    background-color: #ffffff;
+    
+}
+.main_section{
+    /* setting the middle section's color */
+    background-image: url("https://images.pexels.com/photos/988872/pexels-photo-988872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  
+  
+  
+    /* background-color: lightgrey; */
+    min-height: 100%;
+  
+      
 }
 
 .aboutPageInformation{
@@ -47,7 +74,7 @@ header{
     display:inline;
     position: relative;
     left:7em;
-    bottom:6px;
+    bottom:8px;
     padding: 38px;
     
     /* Setting the color */
@@ -125,6 +152,7 @@ body{
    
    float:left;
    
+   
 }
 .clearfix::after {
     content: "";
@@ -135,15 +163,13 @@ body{
 #DemPizzaLogoPic{
       height: 200px;
       width: auto;
-      
-     
   }
+
 #perrucciMediaPic{
     height: 100px;
     width: auto;
     padding: 40px;
     transform: translateX(-15em);
-
 }
 
 #rpsImage{
@@ -151,7 +177,6 @@ body{
     width: auto;
     transform: translateX(30em);    
 }
-
 
 
 /***********Footer Styles ***********/
